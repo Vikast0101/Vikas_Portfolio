@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vikas . T is a software engineer building Python and FastAPI services, web applications, and applied AI demos.">
+  <meta name="theme-color" content="#0c0f0d">
+  <title>Vikas . T — Software Engineer</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="project-loops.css">
+  <link rel="preload" href="assets/field-unit-motion.webp" as="image" fetchpriority="high">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Vikas . T, home"><span class="brand-mark" aria-hidden="true">VT</span> VIKAS . T</a>
+      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a></nav>
+      <a class="header-contact" href="#contact">Get in touch</a>
+    </div>
+  </header>
+  <div class="robot-background" aria-hidden="true">
+    <div class="robot-stage" id="robot-stage">
+      <img class="robot-poster" src="assets/field-unit-motion.webp" alt="" fetchpriority="high" width="320" height="320">
+      <canvas id="robot-canvas"></canvas>
+    </div>
+  </div>
+  <main id="main">
+    <section id="top" class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> SOFTWARE ENGINEER</p>
+        <h1 id="hero-title">Vikas <span class="period">.</span> <span class="surname">T</span></h1>
+        <p class="hero-statement">I build backend services<br class="desktop-break"> and applied AI systems.</p>
+        <p class="hero-description">Python and FastAPI for the backend, React for the web, and NLP and computer vision for hands-on demos.</p>
+        <div class="actions"><a class="button primary" href="#work">Explore my work</a><a class="button secondary" href="https://www.linkedin.com/in/vikas-t-dev" target="_blank" rel="noopener">LinkedIn</a></div>
+        <dl class="metrics">
+          <div><dt>Internships</dt><dd>3</dd></div>
+          <div><dt>Public deployments</dt><dd>8+</dd></div>
+          <div><dt>Word2Vec languages</dt><dd>4</dd></div>
+        </dl>
+      </div>
+      <div class="hero-showcase" aria-hidden="true"></div>
+    </section>
+    <div class="stack-strip wrap" aria-label="Core technologies"><span>PYTHON</span><span>FASTAPI</span><span>REACT</span><span>MYSQL</span><span>OPENCV</span><span>WORD2VEC</span></div>
+
+    <section class="section wrap" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">PROJECTS</p><h2 id="work-title">Selected work<span class="period">.</span></h2></div><p>Watch a short example of each project, then try the live demos.</p></div>
+      <div class="project-grid">
+        <article class="project showcase-project" id="word-similarity" aria-labelledby="word-similarity-title">
+          <p class="eyebrow">NLP · FASTAPI · RENDER</p>
+          <h3 id="word-similarity-title">Multilingual Word Similarity</h3>
+          <p class="showcase-description">Four FastAPI services compare words in English, Kannada, Tamil, and Malayalam using separate Word2Vec models.</p>
+          <figure class="project-demo">
+            <img src="assets/project-similarity-loop.webp" width="560" height="315" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <p>In this example, “cat” and “kitten” land closer together in the model’s word space than “cat” and “train.”</p>
+            </figcaption>
+          </figure>
+          <div class="demo-links" aria-label="Live demos">
+            <a href="https://word2vec-english.onrender.com" target="_blank" rel="noopener">English</a>
+            <a href="https://word2vec-kannada.onrender.com" target="_blank" rel="noopener">Kannada</a>
+            <a href="https://word2vec-tamil.onrender.com" target="_blank" rel="noopener">Tamil</a>
+            <a href="https://word2vec-malayalam.onrender.com" target="_blank" rel="noopener">Malayalam</a>
+          </div>
+        </article>
+        <article class="project showcase-project" id="gesture" aria-labelledby="gesture-title">
+          <p class="eyebrow">COMPUTER VISION</p>
+          <h3 id="gesture-title">Gesture-Based Apps</h3>
+          <p class="showcase-description">MediaPipe and OpenCV track hand movements for two browser apps, a balloon game and an air-drawing pad.</p>
+          <figure class="project-demo">
+            <img src="assets/project-gesture-loop.webp" width="560" height="315" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <p>Watch the tracked fingertip turn its movement into a line on the drawing pad.</p>
+            </figcaption>
+          </figure>
+          <div class="demo-links" aria-label="Live demos">
+            <a href="https://ai-awareness-kkt.github.io/balloon_popping_game/" target="_blank" rel="noopener">Balloon Game</a>
+            <a href="https://ai-awareness-kkt.github.io/air_drawing/" target="_blank" rel="noopener">Air Drawing</a>
+          </div>
+        </article>
+        <article class="project showcase-project" id="word-guess" aria-labelledby="word-guess-title">
+          <p class="eyebrow">APPLIED NLP</p>
+          <h3 id="word-guess-title">AI Word Guessing Game</h3>
+          <p class="showcase-description">Semantic similarity gives players feedback on how close each guess is to the hidden word.</p>
+          <figure class="project-demo">
+            <img src="assets/project-guess-loop.webp" width="512" height="288" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <p>Follow a round of fruit guesses as the game gives feedback and reveals the answer.</p>
+            </figcaption>
+          </figure>
+          <div class="demo-links" aria-label="Live demos">
+            <a href="https://ai-awareness-kkt.github.io/word_guess/" target="_blank" rel="noopener">Play the game</a>
+          </div>
+        </article>
+        <article class="project showcase-project" id="iot" aria-labelledby="iot-title">
+          <p class="eyebrow">EMBEDDED SYSTEMS</p>
+          <h3 id="iot-title">IoT Network Security</h3>
+          <p class="showcase-description">A design for IoT gateways that combines anomaly detection, dynamic access control, and lightweight encryption.</p>
+          <figure class="project-demo">
+            <img src="assets/project-iot-loop.webp" width="560" height="315" alt="" loading="lazy" decoding="async">
+            <figcaption>
+              <p>In this example, normal sensor traffic passes through while unusual traffic is held for review.</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><div><p class="eyebrow">INTERNSHIPS</p><h2 id="experience-title">Experience<span class="period">.</span></h2></div><p>Backend engineering, full-stack development, and embedded security.</p></div>
+      <div class="experience-list">
+        <article><div><p class="employer">IonIdea</p><h3>Backend Developer Intern</h3></div><div><p>Shipped and documented FastAPI endpoints for an academic SaaS platform. Worked with MySQL and React developers, and implemented request validation, error handling, and API versioning.</p><p class="tech-line">Python · FastAPI · Swagger UI · MySQL · React</p></div></article>
+        <article><div><p class="employer">NITK Surathkal</p><h3>Full Stack Developer Intern</h3></div><div><p>Built and deployed an AI awareness platform with five or more live demos. Developed real-time hand-gesture recognition to map hand movements to browser actions.</p><p class="tech-line">Python · MediaPipe · OpenCV · JavaScript · GitHub Pages</p><a class="text-link" href="https://ai-awareness-kkt.github.io/webpage/" target="_blank" rel="noopener">View the AI Awareness Platform</a></div></article>
+        <article><div><p class="employer">Larsen &amp; Toubro</p><h3>IoT Security Intern</h3></div><div><p>Analyzed firmware validation and device authentication for embedded IoT systems. Designed encryption-based security models and documented threat-mitigation workflows.</p><p class="tech-line">Encryption · Hashing · Authentication · Secure Firmware</p></div></article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><div><p class="eyebrow">BACKGROUND</p><h2 id="about-title">About me<span class="period">.</span></h2></div><p>I’m a software engineer. I enjoy building systems end to end, from API design and validation to the deployment people actually use.</p></div>
+      <div class="about-grid">
+        <div class="about-panel"><h3>Technical skills</h3><dl class="skills">
+          <div><dt>Languages</dt><dd>Python, JavaScript, C/C++, SQL</dd></div>
+          <div><dt>Backend</dt><dd>FastAPI, Node.js, REST, OpenAPI, microservices, API versioning</dd></div>
+          <div><dt>Frontend</dt><dd>React, HTML, CSS, Tailwind CSS</dd></div>
+          <div><dt>Data &amp; AI</dt><dd>MySQL, NLP, Word2Vec, Gensim, OpenCV, MediaPipe, machine learning</dd></div>
+          <div><dt>Tools &amp; cloud</dt><dd>Git, Docker, Postman, Ubuntu, Render, GitHub Pages, Google Cloud</dd></div>
+          <div><dt>Foundations</dt><dd>Data structures and algorithms, object-oriented programming, Agile/Scrum</dd></div>
+        </dl></div>
+        <div class="about-panel credentials"><h3>Education &amp; learning</h3><p><strong>B.E. in Information Science and Engineering</strong><br>Vidyavardhaka College of Engineering · 2025 · 8.23 CGPA</p><p>Vijayavittala Composite PU College · 89.1%<br>Christ Public School · 92.8%</p><p><strong>Infosys</strong> · Explore Machine Learning using Python, Python for Data Science</p><p><strong>Google Cloud Skills Boost</strong> · Introduction to Generative AI, Data Analyst learning path</p><p><strong>Google Cloud Associate Cloud Engineer</strong> · Completed</p><p><strong>Languages</strong> · English, Hindi, Kannada, Telugu</p></div>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">CONTACT</p><h2 id="contact-title">Let’s talk<span class="period">.</span></h2></div><div class="actions"><a id="email-trigger" class="button primary" href="mailto:vikivikas0101@gmail.com" aria-haspopup="dialog">Email me</a><a class="button secondary" href="https://www.linkedin.com/in/vikas-t-dev" target="_blank" rel="noopener">LinkedIn</a></div></section>
+  </main>
+  <dialog class="email-dialog" id="email-dialog" aria-labelledby="email-title">
+    <div class="email-heading">
+      <h2 id="email-title">Email Vikas</h2>
+      <form method="dialog"><button type="submit" class="button secondary">Close</button></form>
+    </div>
+    <label for="email-address">Email address</label>
+    <input id="email-address" type="text" value="vikivikas0101@gmail.com" readonly>
+    <div class="actions">
+      <button type="button" class="button primary" id="copy-email" autofocus>Copy email address</button>
+    </div>
+    <p id="copy-status" role="status"></p>
+  </dialog>
+  <footer class="wrap site-footer"><span>Vikas . T · Software Engineer</span><a href="#top">Back to top</a></footer>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a600dfa55c2e7fe8',t:'MTc5NTYxMjAxNw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a600dfa55c2e7fe8',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
